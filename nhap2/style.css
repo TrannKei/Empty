@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tapestry&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+font-family: 'Roboto', sans-serif;
+
+}
+.top-bar{
+justify-content: space-between;
+display: flex;
+    width: 70%;
+    margin: 0 auto;
+    height: 80px;
+  
+    top: 0%;
+    left: 0%;
+    background-color: white;
+   font-size: 16px;
+   align-items: center;
+}
+.tab{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100%;
+    align-items: stretch;
+line-height: 80px;
+overflow: hidden;
+}
+
+
+.items-top{
+    margin-left: 15px;
+    height: 80px;
+text-align: center;
+align-items: stretch;
+}
+.items-top:hover{
+    transform: scale(1.05);
+    transition: all ease 0.5s;
+    color: #ddae71;
+    border-bottom: #ddae71 solid 7px;
+    
+}
+.banner{   width: 100%;
+  
+ 
+    margin-top: 80px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+}
+h2{
+    font-size: 39px;
+    
+    font-weight: 700;
+    
+}
+.head{
+margin: 0 auto;
+width: 50%;
+display: flex;
+flex-direction: row;
+font-size: 50px;
+}
+.avartar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.name{
+    margin-bottom: 3px;
+    font-size: 24px;
+
+}
+.view{
+    opacity: 0.5;
+    font-size: 24px;
+
+}
+
+.main-head{
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.main-head h2{
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;}
+li{
+    font-weight: 800;
+}    
+.bold{
+    font-weight: 600;
+
+}
+.click{
+     width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+ 
+
+}
+.share{
+    display: flex;
+  
+    align-items: center;
+  justify-content: center;
+
+}
+h3.share{
+    text-align: center;
+}
+.tabb{
+    width: 50%;
+    margin: 0 auto 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+
+}
+
+div.card-items p{
+    font-size: 16px;
+    margin-left: 10px;
+    font-size: 24px;
+}
+div.card-items img{
+    border: 2px solid lightgray;
+}
+.card-items{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    color: black;
+    height: fit-content;
+    width: 60%;
+    margin: 10px auto 0;
+
+
+
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto ;
+    align-items: stretch;
+
+
+}
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 80px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+.hotline{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+
+
+}
+a{
+    text-decoration: none;
+}
+.title{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.bottom{
+    background-color: black;
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    color: #5b5b5b;
+    width: 70%;
+    margin: 0 auto;
+
+}
+.place1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+   flex-direction: column;
+   
+
+
+}
+.place2{
+    display: flex;
+
+}
+.card{
+    width: 20%;
+    margin-right: 1%;
+}
+.diachi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bg-black{
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+
+}
+a > p {
+    color: #5b5b5b;
+}
+
+
+.end{
+    color: black;
+    margin-bottom: 0px;
+    background-color: darkgrey;
+    text-align: center;
+}
+.white{
+    color: white;
+}

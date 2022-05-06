@@ -1,0 +1,159 @@
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position:
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  color: #FFF;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+
+h1 {
+  color: #466995;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #333;
+  font-family: "Varela Round", sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  color: #466995;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h4 {
+  color: #466995;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: #333;
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #DBE9EE;
+  text-align: center;
+}
+
+.welcome {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.question {
+  text-align: center;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  width: 25%;
+  display:  inline-block;
+  border-radius: 10px;
+}
+
+.answer:hover {
+  background: #C0D6DF;
+  color: #FFF;
+}
+.card{
+
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto ;
+  align-items: stretch;
+
+
+}
+
+.footer1{
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  height: 80px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+
+}
+.hotline{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.footer2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 10px;
+  
+
+
+}
+a{
+  text-decoration: none;
+}
+.title{
+  color: white;
+  font-size: 16px;
+  margin-bottom: 5px;
+}

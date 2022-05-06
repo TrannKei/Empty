@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div>
+    <div style="background-color: white;   position: fixed;  top: 0; width: 100%; ">
+        <div class="top-bar">
+            <div>
+                <img src="https://mindx.vn/images/logo.png">
+            </div>
+            <div class="tab">
+                <div class="items-top">Tổng hợp khóa học</div>
+                <div class="items-top">Sản Phẩm học viên</div>
+                <div class="items-top">Thành tích học viên</div>
+                <div class="items-top">Blog</div>
+                <div class="items-top">Về chúng tôi</div>
+                <div class="items-top">Sự kiện</div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img class="banner"
+            src="https://resources.mindx.edu.vn/uploads/images/164243145_1879127655595491_2163594297157166535_n.jpg"
+            alt="banner">
+
+    </div>
+    <h2 class="head">Chuyển ngành lập trình từ con số 0, không gì là không thể!</h2>
+    <div class="head">
+        <div>
+            <img class="avartar"
+                src="data:image/png;base64,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"
+                alt="avartar">
+
+
+        </div>
+        <div style="display: flex; flex-direction:column; margin-left: 10px ">
+            <div class="name">Trần Kiên</div>
+            <div class="view" style="z-index: 1">29/4/2022 4000 lượt xem </div>
+        </div>
+    </div>
+    <!-- this is body -->
+
+    <div class="main-head">
+        <h2>26 tuổi thất nghiệp vì Covid và bước ngoặt chuyển ngành lập trình từ con số 0...</h2>
+
+
+        <p>2020, thất nghiệp vì Covid và mất định hướng ở tuổi 26 là những gì mà anh Kiên - một học viên đặc biệt của
+            MindX đã trải qua. Nhưng sau tất cả, đây chính là bước ngoặt lớn của cuộc đời, bỏ lại những kiến thức, kinh
+            nghiệm đã tích lũy để bắt đầu theo đuổi công nghệ thông tin từ con số 0.
+
+            Hãy cùng MindX lắng nghe những chia sẻ của anh Hà Trung Kiên ngay sau đây nhé:
+        </p>
+        <ol>
+            <li>
+                <h3>Con đường đến với lập trình của anh như thế nào?</h3>
+            </li>
+            <p>"Mình tên là Kiên, năm nay mình 27 tuổi, mình học ngành kỹ thuật công trình ở Đại học xây dựng. Tuy
+                nhiên, đến năm thứ 4 thì mình bỏ ngang vì cảm thấy không phù hợp và chuyển qua dạy tiếng Anh, sau đó
+                thì mình lại chuyển qua dẫn tour du lịch.</p>
+            <img src="https://resources.mindx.edu.vn/uploads/images/164243145_1879127655595491_2163594297157166535_n.jpg"
+                alt="Kien ">
+
+            <p>"Thật ra thì mình mới tốt nghiệp trường xây dựng cuối năm 2020 thôi. Khi quyết định chuyển sang lập
+                trình, mình cũng có tìm hiểu và được MindX tư vấn rằng muốn sang nước ngoài thì phải có bằng đại học. Từ
+                đó, mình mới quay lại học tiếp để lấy bằng, chứ lúc đầu mình định bỏ luôn rồi "</p>
+
+            <li>
+                <h3>Chuyển ngành ở độ tuổi không còn trẻ chắc anh cũng gặp không ít khó khăn? Động lực nào giúp anh nỗ
+                    lực và cố gắng để theo đuổi đến cùng?</h3>
+            </li>
+            <p>"Mình cũng lo lắng và hoang mang khi bắt đầu vì nghĩ các bạn sinh viên đã học từ năm 18 tuổi, mình làm
+                sao mà theo được. Tuy nhiên, học đến đâu thì mình cũng hiểu đến đó nên cũng có chút niềm tin là mình hợp
+                với lập trình. Mình đầu tư rất nhiều thời gian để học lập trình, gần như là lúc nào cũng học luôn đó.
+                Mình code đến 12 tiếng mỗi ngày, có đợt làm project mình ngủ chỉ 4 tiếng/ ngày, thời gian còn lại làm
+                project hết.</p>
+
+            <p>Ngoài ra, mình nghĩ MindX cũng giúp mình tự tin hơn rất nhiều đấy. Vì có cam kết đầu ra nên mình cứ bám
+                vào đó và học theo thôi, không phải lo lắng gì cả, nhưng mà chưa cần hết lộ trình, sau có 2 khóa học là
+                mình có việc làm đầu tiên luôn rồi "</p>
+
+            <p>"Công việc đầu tiên tại Nexttech - đối tác của MindX, mình được offer qua MindX Job Fair. Lúc đó mình mới
+                kết thúc khóa 2, chưa xác định là đi làm vì chưa có đủ kinh nghiệm và kiến thức, nhưng cũng may là hồi
+                đó tham gia sự kiện của MindX và phỏng vấn thử, cơ hội đến thì mình nắm bắt thôi.</p>
+            <p>Sau một thời gian thì mình chuyển công ty, hiện tại mình đang làm tại CMC Global với mức lương gấp đôi
+                công ty cũ. Đây là thành tựu nho nhỏ mà chính mình cũng không nghĩ sẽ đạt được nhanh đến như vậy."</p>
+            <h3>- MindX có giúp anh chinh phục giấc mơ công nghệ dễ dàng hơn?</h3>
+            <p>"Bây giờ thì không cần lo nhưng trước đó mình cũng thấy cảm ơn MindX, giảng viên thì nhiệt tình, cả 3 lớp
+                đều rất nhiệt tình, support kể cả ngoài giờ học cũng tốt, trình độ chuyên môn giỏi. Bên cạnh đó, cộng
+                đồng của MindX khá tốt, môi trường ổn, có nhiều sự kiện như MindX Job Fair và Hackathon cũng khá là hay,
+                giúp mình có thêm nhiều cơ hội thử thách bản thân và tìm cơ hội hơn."</p>
+            <h3>- Nếu được quay lại khi 18 tuổi, anh nghĩ mình sẽ có những quyết định gì</h3>
+            <img width="526px" src="https://resources.mindx.edu.vn/uploads/images/Ha%CC%80%20Trung%20Kie%CC%82n%20Ho%CC%A3c%20vie%CC%82n%20tie%CC%82u%20bie%CC%82%CC%89u-%20MindX%20.png"
+                alt="HTK ">
+            <p class="bold"><i>"Nếu được quay lại, mình sẽ học lập trình sớm hơn, từ cấp 3 luôn chứ không phải đại học.
+                    Cấp
+                    3 thi đại học xong thì năm đầu tiên mình sẽ đi làm, đi thực tập luôn vì ngành CNTT đi thực tập, đi
+                    làm
+                    dễ lắm do mình đã chuẩn bị từ cấp 3 rồi mà. Sau khi tốt nghiệp đại học là mình đã có 4 năm kinh
+                    nghiệm,
+                    có thể bây giờ đã trở thành 1 Global Developer rồi. Tuy nhiên, đi đường vòng cũng không sao, thành
+                    công
+                    đến muộn chút nhưng cũng cho mình những trải nghiệm thú vị."</i></p>
+            <p>Từ con số 0 tròn trĩnh, Kiên đã đạt được những quả ngọt đầu tiên, với sự cố gắng vô cùng. MindX vẫn nhớ
+                những ấn tượng đặc biệt khi gặp anh tại buổi Hackathon, với vai trò 1 trong 3 ông chú - nhóm có thể coi
+                là nhiều tuổi nhất nhưng máu me cũng nhất nhì, cũng code xuyên đêm, đói ăn mì tôm, chè cô Bân ở căng tin
+                bán. Cuối buổi, anh cũng là 1 trong những người duy nhất ở lại hỗ trợ team kê lại bàn ghế, dù mình biết
+                thức đêm như thế ai cũng mỏi lắm rồi.</p>
+            <p>Gặp lại ở hôm Job fair, vẫn mái tóc xuề xoà đó, Kiên chạy ra mượn bọn mình laptop để demo cho các nhà
+                tuyển dụng :)), chạy đôn đáo qua lại các booth không bỏ lỡ bất kì cơ hội nào.</p>
+            <p>Bạn thấy đó cơ hội trong ngành này rất nhiều. Miễn có đủ quyết tâm, đủ nỗ lực. MindX không tiện public
+                mức thu nhập của bạn, tuy nhiên mình tin đây cũng là 1 con số đáng kể mà nếu Kiên không liều 1 chút
+                chuyển ngành thì không dễ để đạt tới.</p>
+            <p>Và Kiên chỉ là 1 trong số vô vàn bạn đang học tập, cố gắng ở đây thôi! Người ta làm được, sao bạn lại
+                không nhỉ ? Tìm hiểu về các khóa học của MindX <a
+                    href="https://mindx.edu.vn/study-program/khoa-hoc-lap-trinh-tu-co-ban-toi-nang-cao">tại đây.</a>
+            </p>
+
+        </ol>
+        <div class="share">
+            <h3 style="text-align:center">Đừng quên chia sẻ với bạn bè nhé!</h3>
+        </div><a href="https://facebook.com">
+            <div style="justify-content: center; display: flex;">
+                <img class="click"
+                    src="https://f6.ftipng.com/pngimgs/other/69066/png-clipart-Facebook-Instagram-Youtube-Linkedin-Email-Circle_thumbnail.png"
+                    alt="fb ">
+        </a>
+        <a href="https://twitter.com"><img class="click"
+                src="https://banner2.cleanpng.com/20180330/ekq/kisspng-computer-icons-logo-twitter-5abe30c28974f0.455001051522413762563.jpg"
+                alt="tw "></a>
+    </div>
+</div>
+
+<div class="tabb">
+    <h2 style="border-left: red solid 5px ; padding-left: 10px;">BÀI VIẾT TƯƠNG TỰ </h2>
+    <a href="https://mindx.edu.vn/blog/ly-do-nen-hoc-uiux-design">
+        <div class="card-items">
+            <img src="https://resources.mindx.edu.vn/uploads/images/xoxo%20-320.png" alt="6 lí do nên học">
+            <p>6 lý do hàng đầu bạn nên học UI/UX Design</p>
+        </div>
+    </a>
+    <a href="https://kids.mindx.edu.vn/tiemnangnganhcntt_cohoibutphachocon">
+        <div class="card-items">
+            <img src="https://resources.mindx.edu.vn/uploads/images/BG%20ch%E1%BB%9D%20event%20T4-01-320.png"
+                alt="tổng kết sự kiện">
+
+            <p>Tổng kết sự kiện "Các hướng đi và cơ hội bứt phá CNTT cho con</p>
+        </div>
+    </a>
+    <a href="https://mindx.vn/blog/nhin-lai-xtalents-thang-4-save-the-earth">
+        <div class="card-items">
+            <img src="https://resources.mindx.edu.vn/uploads/images/Trao%20gi%E1%BA%A3i-01-320.jpg"
+                alt="nhìn lại Xtalent">
+            <p>Nhìn lại Xtalent tháng 4 - Save the Earth </p>
+        </div>
+    </a>
+
+</div>
+<div style="background-color: #3e3e3c; width: 100%; height: 336px; padding-top: 5px;">
+    <div class="footer">
+        <div class="footer1">
+            <img width="200px" src="https://mindx.vn/images/logo_white.png" alt="">
+            <a href="https://www.facebook.com/MindX.School"> <img width="50px" height="50px"
+                    src="https://f6.ftipng.com/pngimgs/other/69066/png-clipart-Facebook-Instagram-Youtube-Linkedin-Email-Circle_thumbnail.png"
+                    alt=""></a>
+            <a href="https://www.youtube.com/channel/UCkuxJcFwR-iFgThUPKwM_JA/featured">
+                <img width="50px" height="50px"
+                    src="https://image.similarpng.com/very-thumbnail/2020/07/Youtube-logo-design-on-transparent-PNG.png"
+                    alt=""></a>
+
+
+        </div>
+        <div class="hotline">
+            <div class=" footer2">
+                <p class="title">Về mindX</p>
+
+                <a href="https://mindx.vn/blog">
+                    <p class="title">Blog công nghệ</p>
+                </a>
+                <a href="https://mindx.vn/about">
+                    <p class="title">Về chúng tôi</p>
+                </a>
+                <a href="https://www.topcv.vn/cong-ty/mindx-technology-school/31103.html">
+                    <p class="title">Tuyển dụng</p>
+                </a>
+            </div>
+            <div class="footer2">
+                <p class="title">Chương trình học</p>
+                <a href="https://mindx.vn/study-program/tong-hoc-khoa-hoc-lap-trinh-cho-tre-em">
+                    <p class="title">Code for Kids </p>
+                </a>
+                <a href="https://mindx.vn/study-program/khoa-hoc-lap-trinh-code-for-teen">
+                    <p class="title">Code for Teens</p>
+                </a>
+                <a href="https://mindx.vn/study-program/khoa-hoc-lap-trinh-tu-co-ban-toi-nang-cao">
+                    <p class="title">Code for 18+</p>
+                </a>
+
+            </div>
+            <div class="footer2">
+                <p class="title">Hotline</p>
+                <a href="tel:0977866659">
+                    <p class="title">Khiếu nại CEO: 0977866659</p>
+                </a>
+                <a href="tel:0865847406">
+                    <p class="title">Liên hệ hợp tác cùng MKT: 0865847406</p>
+                </a>
+                <a href="tel:02477717888">
+                    <p class="title">Kênh đào tạo Online: 02477717888</p>
+                </a>
+                <a href="tel:02477705666">
+                    <p class="title">Các khóa cho học sinh, sinh viên, người đi làm: 02477705666</p>
+                </a>
+                <a href="tel:02477710666">
+                    <p class="title">Trụ sở chính: 02477710666</p>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-black">
+    <div class="bottom">
+        <div class="place1">
+            <div>
+                <h3>Hà Nội</h3>
+            </div>
+
+            <div class="diachi">
+                <div class="card">
+                    <p class="white">
+                        HN-22C Thành Công (Dành riêng cho học sinh sinh viên, người đi làm)
+                    </p>
+                    <a href="tel:02477705666">
+                        <p>Hotline: 02477705666</p>
+                    </a>
+                    <p>Địa chỉ: Tầng 6, Tòa nhà Chigamex 22C Thành Công, Ba Đình, HN</p>
+                </div>
+                <div class="card">
+                    <p class="white">
+                        HN-22C Thành Công (Dành riêng cho học sinh sinh viên, người đi làm)
+                    </p>
+                    <a href="tel:02477705666">
+                        <p>Hotline: 02477705666</p>
+                    </a>
+                    <p>Địa chỉ: Tầng 6, Tòa nhà Chigamex 22C Thành Công, Ba Đình, HN</p>
+                </div>
+                <div class="card">
+                    <p class="white">
+                        HN-22C Thành Công (Dành riêng cho học sinh sinh viên, người đi làm)
+                    </p>
+                    <a href="tel:02477705666">
+                        <p>Hotline: 02477705666</p>
+                    </a>
+                    <p>Địa chỉ: Tầng 6, Tòa nhà Chigamex 22C Thành Công, Ba Đình, HN</p>
+                </div>
+                <div class="card">
+                    <p class="white">
+                        HN-22C Thành Công (Dành riêng cho học sinh sinh viên, người đi làm)
+                    </p>
+                    <a href="tel:02477705666">
+                        <p>Hotline: 02477705666</p>
+                    </a>
+                    <p>Địa chỉ: Tầng 6, Tòa nhà Chigamex 22C Thành Công, Ba Đình, HN</p>
+                </div>
+                <div class="card">
+                    <p class="white">
+                        HN-22C Thành Công (Dành riêng cho học sinh sinh viên, người đi làm)
+                    </p>
+                    <a href="tel:02477705666">
+                        <p>Hotline: 02477705666</p>
+                    </a>
+                    <p>Địa chỉ: Tầng 6, Tòa nhà Chigamex 22C Thành Công, Ba Đình, HN</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="place1">
+            <h3>Thành Phố Hồ Chí Minh</h3>
+            <div class="diachi">
+                <div class="card">
+                    <p class="white">
+                        HN-22C Thành Công (Dành riêng cho học sinh sinh viên, người đi làm)
+                    </p>
+                    <a href="tel:02477705666">
+                        <p>Hotline: 02477705666</p>
+                    </a>
+                    <p>Địa chỉ: Tầng 6, Tòa nhà Chigamex 22C Thành Công, Ba Đình, HN</p>
+                </div>
+                <div class="card">
+                    <p class="white">
+                        HN-22C Thành Công (Dành riêng cho học sinh sinh viên, người đi làm)
+                    </p>
+                    <a href="tel:02477705666">
+                        <p>Hotline: 02477705666</p>
+                    </a>
+                    <p>Địa chỉ: Tầng 6, Tòa nhà Chigamex 22C Thành Công, Ba Đình, HN</p>
+                </div>
+                <div class="card">
+                    <p class="white">
+                        HN-22C Thành Công (Dành riêng cho học sinh sinh viên, người đi làm)
+                    </p>
+                    <a href="tel:02477705666">
+                        <p>Hotline: 02477705666</p>
+                    </a>
+                    <p>Địa chỉ: Tầng 6, Tòa nhà Chigamex 22C Thành Công, Ba Đình, HN</p>
+                </div>
+                <div class="card">
+                    <p class="white">
+                        HN-22C Thành Công (Dành riêng cho học sinh sinh viên, người đi làm)
+                    </p>
+                    <a href="tel:02477705666">
+                        <p>Hotline: 02477705666</p>
+                    </a>
+                    <p>Địa chỉ: Tầng 6, Tòa nhà Chigamex 22C Thành Công, Ba Đình, HN</p>
+                </div>
+                <div class="card">
+                    <p class="white">
+                        HN-22C Thành Công (Dành riêng cho học sinh sinh viên, người đi làm)
+                    </p>
+                    <a href="tel:02477705666">
+                        <p>Hotline: 02477705666</p>
+                    </a>
+                    <p>Địa chỉ: Tầng 6, Tòa nhà Chigamex 22C Thành Công, Ba Đình, HN</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <p style="margin-bottom: 0">Công ty cổ phần ILIAT toàn cầu. Mã số thuế: 0107371744 Địa chỉ: Tầng 5, số 71 Nguyễn
+            Chí Thanh, phường Láng
+            Hạ,
+            quận Đống Đa, thành phố Hà Nội, Việt Nam</p>
+    </div>
+    </body>
+
+</html>
